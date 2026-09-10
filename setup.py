@@ -1,3 +1,5 @@
+"""Updated setup.py with CLI entry points."""
+
 from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -15,6 +17,11 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/abracadabra007-bit/music-video-generator",
     packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'mvg=src.cli:cli',
+        ],
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",

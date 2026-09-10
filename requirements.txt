@@ -1,3 +1,4 @@
+click==8.1.7
 librosa==0.10.0
 moviepy==1.0.3
 opencv-python==4.8.1.78
@@ -7,5 +8,4 @@ Pillow==10.0.0
 scipy==1.11.2
 matplotlib==3.7.2
 python-dotenv==1.0.0
-click==8.1.7
 tqdm==4.66.1
